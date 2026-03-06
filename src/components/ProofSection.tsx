@@ -13,7 +13,7 @@ const proofStats = [
   { num: "200K", suffix: "+", label: "Visitantes presenciais no último evento" },
   { num: "67M", suffix: "", label: "Impressões digitais anuais" },
   { num: "330", suffix: "+", label: "Creators parceiros ativos" },
-  { num: "92", suffix: "%", label: "Taxa de satisfação de patrocinadores" },
+  { num: "100", suffix: "%", label: "Taxa de satisfação de patrocinadores" },
 ];
 
 export const ProofSection = () => (

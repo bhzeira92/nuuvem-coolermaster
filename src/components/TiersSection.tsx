@@ -48,7 +48,7 @@ const tiers = [
       "Logo em materiais do stand e backdrop secundário",
       "Produto showcase em área designada",
       "Menção em campanhas digitais selecionadas",
-      "1 convite VIP para o evento",
+      "3 convite VIP para o evento",
       "Relatório resumido pós-evento",
     ],
   },

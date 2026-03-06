@@ -7,7 +7,7 @@ const zones = [
 {
   tag: "Ground Floor · Alta Circulação",
   name: "NUUVEM ARENA",
-  desc: "16 PCs gaming powered by Cooler Master, torneios ao vivo, meet & greet com creators e experiências de hardware hands-on.",
+  desc: "8 PCs gaming powered by Cooler Master, torneios ao vivo, meet & greet com creators e experiências de hardware hands-on.",
   img: arenaImg
 },
 {
