@@ -15,6 +15,7 @@ export default {
     extend: {
       colors: {
         border: "hsl(var(--border))",
+        "border-bright": "hsl(var(--border-bright))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
@@ -47,16 +48,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        nb1: "hsl(var(--nb1))",
+        nb2: "hsl(var(--nb2))",
+        nb3: "hsl(var(--nb3))",
+        v1: "hsl(var(--v1))",
+        v2: "hsl(var(--v2))",
+        v3: "hsl(var(--v3))",
+        ink: "hsl(var(--ink))",
+        panel: "hsl(var(--panel))",
+        dim: "hsl(var(--dim))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -65,25 +65,21 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "ticker": "ticker 30s linear infinite",
+        "grid-shift": "gridShift 20s linear infinite",
+        "zoom": "zoom 14s ease-out both",
+        "pulse-dot": "pulse-dot 2s infinite",
       },
     },
   },
