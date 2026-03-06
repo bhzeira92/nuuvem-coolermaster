@@ -30,7 +30,7 @@ export const HeroSection = () => {
           <span className="text-v3 italic" style={{ textShadow: "0 0 60px hsl(263 95% 77% / 0.5)" }}>
             ×
           </span>{" "}
-          UP
+          NUUVEM
         </h1>
         <p className="text-[1.05rem] leading-relaxed text-muted-foreground max-w-[440px] my-6">
           A Nuuvem convida a Cooler Master para dominar a Gamescom LATAM 2026 — hardware premium, audiência massiva e conversão real.
