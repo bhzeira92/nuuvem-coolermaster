@@ -30,10 +30,10 @@ const tiers = [
     items: [
       "Branding em 8 PCs gaming + periféricos selecionados",
       "Logo no backdrop principal e materiais do stand",
-      "Acesso ao Cloud Lounge para 2 representantes",
+      "Acesso ao Cloud Lounge ",
       "1 sessão com creators parceiros",
-      "Menções em campanhas digitais (35M reach social)",
-      "Relatório de métricas pós-evento",
+      "Menções em campanhas digitais",
+      "Relatório pós-evento",
     ],
   },
   {
