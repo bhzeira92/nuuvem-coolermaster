@@ -19,7 +19,7 @@ export const WhySection = () => (
           </Reveal>
           <Reveal delay={0.1}>
             <SectionParagraph>
-              Não é banner em site. É a sua marca nas mãos de quem ama performance — durante 5 dias intensos no maior evento gaming da América Latina.
+              Não é banner em site. É a sua marca nas mãos de quem ama performance — durante 4 dias intensos no maior evento gaming da América Latina.
             </SectionParagraph>
           </Reveal>
           <div className="flex flex-col gap-4 mt-9">
