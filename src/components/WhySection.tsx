@@ -5,7 +5,7 @@ const items = [
   { num: "01", title: "Hardware em uso real", desc: 'Branding em cada PC, monitor e ilha de jogo. "Powered by Cooler Master" visto e sentido por 200K+ gamers que jogam e compram.' },
   { num: "02", title: "Audiência ultra-qualificada", desc: "O visitante da Gamescom LATAM tem 2.5× maior intenção de compra de hardware premium que a média do e-commerce." },
   { num: "03", title: "Acesso direto a influencers", desc: "330+ criadores parceiros. O Cloud Lounge é onde os maiores nomes do gaming brasileiro criam conteúdo organicamente." },
-  { num: "04", title: "Alcance digital massivo", desc: "67M de reach anual, 35M em redes sociais, 3.5M na rede Twitch parceira e cobertura de 100+ veículos tier-1." },
+  { num: "04", title: "ALCANCE DIGITAL MASSIVO - NUUVEM", desc: "67M de reach anual, 35M em redes sociais, parceira e cobertura de 100+ veículos tier-1." },
 ];
 
 export const WhySection = () => (
