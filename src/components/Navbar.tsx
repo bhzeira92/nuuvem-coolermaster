@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { generatePptx } from "@/utils/generatePptx";
 
 const navLinks = [
   { label: "Mercado", href: "#market" },
