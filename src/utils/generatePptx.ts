@@ -250,7 +250,7 @@ export async function generatePptx() {
 
   // --- SLIDE 9: CTA ---
   const s9 = pptx.addSlide();
-  s9.background = { fill: { type: "solid", color: DARK_BG } };
+  s9.background = { color: DARK_BG };
   s9.addShape("rect", { x: 0, y: 0, w: "100%", h: "100%", fill: { type: "solid", color: "0A1A3D" } });
   s9.addText("VAMOS\nJOGAR\nJUNTOS", {
     x: 1.5, y: 1.0, w: 7, h: 3.0, fontSize: 52, color: WHITE, bold: true, fontFace: "Arial", align: "center", lineSpacing: 58,
