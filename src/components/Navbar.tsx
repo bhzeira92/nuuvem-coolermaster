@@ -39,12 +39,20 @@ export const Navbar = () => {
           </li>
         ))}
       </ul>
-      <a
-        href="#cta"
-        className="font-display font-bold text-xs tracking-[0.1em] uppercase py-2 px-5 bg-primary text-primary-foreground no-underline hover:bg-nb2 hover:shadow-[0_0_20px_hsl(var(--glow-blue)/0.55)] transition-all"
-      >
-        Falar com a Nuuvem
-      </a>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => generatePptx()}
+          className="font-display font-bold text-xs tracking-[0.1em] uppercase py-2 px-5 bg-transparent text-muted-foreground no-underline border border-border-bright hover:border-v3 hover:text-primary-foreground transition-all cursor-pointer"
+        >
+          ⬇ PPT
+        </button>
+        <a
+          href="#cta"
+          className="font-display font-bold text-xs tracking-[0.1em] uppercase py-2 px-5 bg-primary text-primary-foreground no-underline hover:bg-nb2 hover:shadow-[0_0_20px_hsl(var(--glow-blue)/0.55)] transition-all"
+        >
+          Falar com a Nuuvem
+        </a>
+      </div>
     </nav>
   );
 };
