@@ -28,7 +28,7 @@ export const MarketSection = () =>
             </SectionParagraph>
           </Reveal>
           <Reveal delay={0.15}>
-            <div className="mt-7 p-4 border-l-2 border-primary bg-card text-sm text-muted-foreground leading-relaxed">Oportunidade real: Hardware premium está no centro da experiência gaming. Cooler Master é a marca que este público busca 
+            <div className="mt-7 p-4 border-l-2 border-primary bg-card text-sm text-muted-foreground leading-relaxed">Hardware premium está no centro da experiência gaming. Cooler Master é a marca que este público busca.
             <strong className="text-primary-foreground">Oportunidade real:</strong> Hardware premium está no centro da experiência gaming. Cooler Master é a marca que este público busca — e a Nuuvem é onde ele compra.
             </div>
           </Reveal>
