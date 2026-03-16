@@ -165,7 +165,7 @@ export async function generatePptx() {
 
   const tiers = [
     {
-      badge: "Epic Sponsor", name: "EPIC", sub: "Cota Exclusiva · 1 marca", color: GOLD,
+      badge: "Epic Sponsor", name: "EPIC", sub: "COTA EXCLUSIVA · 1 MARCA - $75.000,00", color: GOLD,
       items: ["Naming rights: 'Nuuvem Lounge powered by Cooler Master'", "Logo em TODOS os 8 PCs, monitores, periféricos e backdrop", "Exclusividade de categoria hardware", "Produto showcase dedicado no Cloud Lounge VIP", "8 convites VIP + 10 visitante", "Campanha digital co-branded", "Relatório completo pós-evento"],
     },
     {
