@@ -10,10 +10,10 @@ const photos = [
 ];
 
 const proofStats = [
-  { num: "200K", suffix: "+", label: "Visitantes presenciais no último evento" },
-  { num: "67M", suffix: "", label: "Impressões digitais anuais" },
-  { num: "330", suffix: "+", label: "Creators parceiros ativos" },
-  { num: "100", suffix: "%", label: "Taxa de satisfação de patrocinadores" },
+  { num: "200K", suffix: "+", label: "In-person visitors at last event" },
+  { num: "67M", suffix: "", label: "Annual digital impressions" },
+  { num: "330", suffix: "+", label: "Active partner creators" },
+  { num: "100", suffix: "%", label: "Sponsor satisfaction rate" },
 ];
 
 export const ProofSection = () => (
@@ -21,7 +21,7 @@ export const ProofSection = () => (
     <div className="max-w-[1200px] mx-auto px-[4vw] py-[6.5rem]">
       <Reveal><Eyebrow>Track Record</Eyebrow></Reveal>
       <Reveal delay={0.05}>
-        <SectionHeading>A NUUVEM JÁ PROVOU<br />QUE SABE FAZER.</SectionHeading>
+        <SectionHeading>NUUVEM HAS PROVEN<br />IT DELIVERS.</SectionHeading>
       </Reveal>
 
       <Reveal delay={0.1}>

@@ -7,13 +7,13 @@ const zones = [
 {
   tag: "",
   name: "NUUVEM ARENA",
-  desc: "8 PCs gaming powered by Cooler Master, torneios ao vivo, meet & greet com creators e experiências de hardware hands-on.",
+  desc: "8 gaming PCs powered by Cooler Master, live tournaments, creator meet & greets, and hands-on hardware experiences.",
   img: arenaImg
 },
 {
   tag: "",
   name: "CLOUD LOUNGE",
-  desc: "Espaço VIP para creators, imprensa e parceiros estratégicos. Networking, content studio e showcase privado de produtos.",
+  desc: "VIP space for creators, press, and strategic partners. Networking, content studio, and private product showcase.",
   img: loungeImg
 }];
 
@@ -22,20 +22,20 @@ export const StandSection = () =>
 <section id="stand" className="bg-background">
     <div className="max-w-[1200px] mx-auto px-[4vw] pt-[6.5rem] pb-16 rounded-none">
       <Reveal>
-        <Eyebrow>O Stand Nuuvem</Eyebrow>
+        <Eyebrow>The Nuuvem Booth</Eyebrow>
       </Reveal>
       <Reveal delay={0.05}>
         <SectionHeading>100m² · "BRING TOGETHER"</SectionHeading>
       </Reveal>
       <Reveal delay={0.1}>
         <SectionParagraph>
-          Um ecossistema físico em dois mundos: arena de alta circulação no ground floor e lounge VIP exclusivo no mezzanine.
+          A physical ecosystem in two worlds: a high-traffic arena on the ground floor and an exclusive VIP lounge on the mezzanine.
         </SectionParagraph>
       </Reveal>
 
       <Reveal delay={0.15}>
         <div className="relative w-full aspect-[21/8] overflow-hidden mt-10 mb-14">
-          <img src={standImg} alt="Stand Nuuvem overview" className="w-full h-full object-cover object-[center_40%]" />
+          <img src={standImg} alt="Nuuvem booth overview" className="w-full h-full object-cover object-[center_40%]" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background" />
         </div>
       </Reveal>
