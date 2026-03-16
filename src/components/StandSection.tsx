@@ -5,7 +5,7 @@ import loungeImg from "@/assets/zone-lounge.jpg";
 
 const zones = [
 {
-  tag: "Ground Floor · Alta Circulação",
+  tag: "",
   name: "NUUVEM ARENA",
   desc: "8 PCs gaming powered by Cooler Master, torneios ao vivo, meet & greet com creators e experiências de hardware hands-on.",
   img: arenaImg
