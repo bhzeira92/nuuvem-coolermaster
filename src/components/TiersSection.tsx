@@ -42,7 +42,7 @@ const tiers = [
     borderClass: "",
     barGradient: "bg-gradient-to-r from-v2 to-nb2",
     name: "STANDARD",
-    sub: "Até 4 marcas",
+    sub: "ATÉ 4 MARCAS - $15.000,00",
     highlight: "Visibilidade no stand com produto showcase e presença digital.",
     items: [
       "Logo em materiais do stand e backdrop secundário",
