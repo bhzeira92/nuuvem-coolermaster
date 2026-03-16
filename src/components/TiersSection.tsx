@@ -7,7 +7,7 @@ const tiers = [
     borderClass: "border-[#FFD100]/40",
     barGradient: "bg-gradient-to-r from-[#FFD100] to-[#FF8C00]",
     name: "EPIC",
-    sub: "Cota Exclusiva · 1 marca",
+    sub: "COTA EXCLUSIVA · 1 MARCA - $75.000,00",
     highlight: "Domínio total do stand e do naming — a Cooler Master é o hardware oficial da × Nuuvem.",
     items: [
       "Naming rights: 'Nuuvem Lounge powered by Cooler Master'",
@@ -25,10 +25,10 @@ const tiers = [
     borderClass: "border-primary/50",
     barGradient: "bg-gradient-to-r from-primary to-v2",
     name: "PARTNER",
-    sub: "Até 2 marcas",
+    sub: "ATÉ 2 MARCAS - $45.000,00",
     highlight: "Presença premium com branding em PCs e acesso ao ecossistema de creators.",
     items: [
-      "Branding em 8 PCs gaming + periféricos selecionados",
+      "Branding em 6 PCs gaming + periféricos selecionados",
       "Logo no backdrop principal e materiais do stand",
       "Acesso ao Cloud Lounge ",
       "1 sessão com creators parceiros",
@@ -42,7 +42,7 @@ const tiers = [
     borderClass: "",
     barGradient: "bg-gradient-to-r from-v2 to-nb2",
     name: "STANDARD",
-    sub: "Até 4 marcas",
+    sub: "ATÉ 4 MARCAS - $15.000,00",
     highlight: "Visibilidade no stand com produto showcase e presença digital.",
     items: [
       "Logo em materiais do stand e backdrop secundário",
