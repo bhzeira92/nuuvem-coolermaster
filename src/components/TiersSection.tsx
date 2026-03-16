@@ -25,7 +25,7 @@ const tiers = [
     borderClass: "border-primary/50",
     barGradient: "bg-gradient-to-r from-primary to-v2",
     name: "PARTNER",
-    sub: "Até 2 marcas",
+    sub: "ATÉ 2 MARCAS - $45.000,00",
     highlight: "Presença premium com branding em PCs e acesso ao ecossistema de creators.",
     items: [
       "Branding em 8 PCs gaming + periféricos selecionados",
