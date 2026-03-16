@@ -173,7 +173,7 @@ export async function generatePptx() {
       items: ["Branding em 8 PCs gaming + periféricos selecionados", "Logo no backdrop principal e materiais do stand", "Acesso ao Cloud Lounge", "1 sessão com creators parceiros", "Menções em campanhas digitais", "Relatório pós-evento"],
     },
     {
-      badge: "Standard", name: "STANDARD", sub: "Até 4 marcas", color: GRAY,
+      badge: "Standard", name: "STANDARD", sub: "ATÉ 4 MARCAS - $15.000,00", color: GRAY,
       items: ["Logo em materiais do stand e backdrop secundário", "Produto showcase em área designada", "Menção em campanhas digitais selecionadas", "3 convite VIP para o evento", "Relatório resumido pós-evento"],
     },
   ];
