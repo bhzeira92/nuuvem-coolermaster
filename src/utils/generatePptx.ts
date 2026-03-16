@@ -169,7 +169,7 @@ export async function generatePptx() {
       items: ["Naming rights: 'Nuuvem Lounge powered by Cooler Master'", "Logo em TODOS os 8 PCs, monitores, periféricos e backdrop", "Exclusividade de categoria hardware", "Produto showcase dedicado no Cloud Lounge VIP", "8 convites VIP + 10 visitante", "Campanha digital co-branded", "Relatório completo pós-evento"],
     },
     {
-      badge: "Partner", name: "PARTNER", sub: "Até 2 marcas", color: BLUE,
+      badge: "Partner", name: "PARTNER", sub: "ATÉ 2 MARCAS - $45.000,00", color: BLUE,
       items: ["Branding em 8 PCs gaming + periféricos selecionados", "Logo no backdrop principal e materiais do stand", "Acesso ao Cloud Lounge", "1 sessão com creators parceiros", "Menções em campanhas digitais", "Relatório pós-evento"],
     },
     {
