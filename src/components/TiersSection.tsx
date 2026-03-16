@@ -28,7 +28,7 @@ const tiers = [
     sub: "ATÉ 2 MARCAS - $45.000,00",
     highlight: "Presença premium com branding em PCs e acesso ao ecossistema de creators.",
     items: [
-      "Branding em 8 PCs gaming + periféricos selecionados",
+      "Branding em 6 PCs gaming + periféricos selecionados",
       "Logo no backdrop principal e materiais do stand",
       "Acesso ao Cloud Lounge ",
       "1 sessão com creators parceiros",

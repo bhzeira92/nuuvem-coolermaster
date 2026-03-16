@@ -170,7 +170,7 @@ export async function generatePptx() {
     },
     {
       badge: "Partner", name: "PARTNER", sub: "ATÉ 2 MARCAS - $45.000,00", color: BLUE,
-      items: ["Branding em 8 PCs gaming + periféricos selecionados", "Logo no backdrop principal e materiais do stand", "Acesso ao Cloud Lounge", "1 sessão com creators parceiros", "Menções em campanhas digitais", "Relatório pós-evento"],
+      items: ["Branding em 6 PCs gaming + periféricos selecionados", "Logo no backdrop principal e materiais do stand", "Acesso ao Cloud Lounge", "1 sessão com creators parceiros", "Menções em campanhas digitais", "Relatório pós-evento"],
     },
     {
       badge: "Standard", name: "STANDARD", sub: "ATÉ 4 MARCAS - $15.000,00", color: GRAY,

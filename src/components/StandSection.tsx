@@ -11,7 +11,7 @@ const zones = [
   img: arenaImg
 },
 {
-  tag: "Mezzanine · Acesso Exclusivo",
+  tag: "",
   name: "CLOUD LOUNGE",
   desc: "Espaço VIP para creators, imprensa e parceiros estratégicos. Networking, content studio e showcase privado de produtos.",
   img: loungeImg
