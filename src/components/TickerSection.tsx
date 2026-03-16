@@ -1,11 +1,11 @@
 export const TickerSection = () => {
   const items = [
-    { num: "200K+", label: "Visitantes esperados" },
-    { num: "100m²", label: "Stand Nuuvem" },
-    { num: "5", label: "Dias de evento" },
-    { num: "330+", label: "Creators parceiros" },
-    { num: "67M", label: "Reach anual" },
-    { num: "#1", label: "Evento LATAM" },
+    { num: "200K+", label: "Expected visitors" },
+    { num: "100m²", label: "Nuuvem Booth" },
+    { num: "5", label: "Event days" },
+    { num: "330+", label: "Partner creators" },
+    { num: "67M", label: "Annual reach" },
+    { num: "#1", label: "LATAM Event" },
   ];
 
   const doubled = [...items, ...items];

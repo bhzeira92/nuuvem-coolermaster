@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { generatePptx } from "@/utils/generatePptx";
 
 const navLinks = [
-  { label: "Mercado", href: "#market" },
-  { label: "Stand", href: "#stand" },
-  { label: "Cotas", href: "#tiers" },
+  { label: "Market", href: "#market" },
+  { label: "Booth", href: "#stand" },
+  { label: "Tiers", href: "#tiers" },
   { label: "Track Record", href: "#proof" },
   { label: "Nuuvem", href: "#nuuvem" },
 ];
@@ -50,7 +50,7 @@ export const Navbar = () => {
           href="#cta"
           className="font-display font-bold text-xs tracking-[0.1em] uppercase py-2 px-5 bg-primary text-primary-foreground no-underline hover:bg-nb2 hover:shadow-[0_0_20px_hsl(var(--glow-blue)/0.55)] transition-all"
         >
-          Falar com a Nuuvem
+          Talk to Nuuvem
         </a>
       </div>
     </nav>

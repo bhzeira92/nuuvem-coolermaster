@@ -35,31 +35,15 @@ export const HeroSection = () => {
         <p className="text-[1.05rem] leading-relaxed text-muted-foreground max-w-[440px] my-6">
 
         </p>
-        
-
-
-
-
-
-
-
-
-
-
-
-
-        
       </div>
 
       {/* Meta */}
       <div className="absolute right-[4vw] bottom-24 z-[2] text-right hidden md:block">
-        <div className="font-display font-black text-base tracking-[0.1em] uppercase text-primary-foreground">30 ABR – 04 MAI 2026
-
+        <div className="font-display font-black text-base tracking-[0.1em] uppercase text-primary-foreground">APR 30 – MAY 04, 2026
         </div>
         <div className="text-xs text-muted-foreground tracking-wide mt-1">
           São Paulo Expo · São Paulo, BR
         </div>
       </div>
     </section>);
-
 };

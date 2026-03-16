@@ -2,10 +2,10 @@ import { Reveal, Eyebrow, SectionHeading, SectionParagraph } from "./ui-landing"
 import heroBg from "@/assets/hero-bg.jpg";
 
 const stats = [
-{ num: "850M", suffix: "+", label: "Gamers em mercados emergentes" },
-{ num: "45M", suffix: "", label: "Players mensais Nuuvem" },
-{ num: "3.1M", suffix: "", label: "Unidades vendidas LATAM 2024" },
-{ num: "#1", suffix: "", label: "Ecossistema gaming da LATAM" }];
+{ num: "850M", suffix: "+", label: "Gamers in emerging markets" },
+{ num: "45M", suffix: "", label: "Nuuvem monthly players" },
+{ num: "3.1M", suffix: "", label: "Units sold LATAM 2024" },
+{ num: "#1", suffix: "", label: "LATAM gaming ecosystem" }];
 
 
 export const MarketSection = () =>
@@ -15,21 +15,21 @@ export const MarketSection = () =>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         <div>
           <Reveal>
-            <Eyebrow>O Mercado</Eyebrow>
+            <Eyebrow>The Market</Eyebrow>
           </Reveal>
           <Reveal delay={0.05}>
             <SectionHeading>
-              O GAMING LATAM<br />ESTÁ EXPLODINDO.
+              LATAM GAMING<br />IS BOOMING.
             </SectionHeading>
           </Reveal>
           <Reveal delay={0.1}>
             <SectionParagraph>
-              850 milhões de gamers em mercados emergentes. O LATAM lidera o crescimento — e o gamer latino compra 2.5× mais que a média do e-commerce.
+              850 million gamers in emerging markets. LATAM leads the growth — and Latin American gamers spend 2.5× more than the average e-commerce buyer.
             </SectionParagraph>
           </Reveal>
           <Reveal delay={0.15}>
-            <div className="mt-7 p-4 border-l-2 border-primary bg-card text-sm text-muted-foreground leading-relaxed">Hardware premium está no centro da experiência gaming. Cooler Master é a marca que este público busca.
-            <strong className="text-primary-foreground">Oportunidade real:</strong> Hardware premium está no centro da experiência gaming. Cooler Master é a marca que este público busca — e a Nuuvem é onde ele compra.
+            <div className="mt-7 p-4 border-l-2 border-primary bg-card text-sm text-muted-foreground leading-relaxed">
+            <strong className="text-primary-foreground">Real opportunity:</strong> Premium hardware is at the heart of the gaming experience. Cooler Master is the brand this audience seeks — and Nuuvem is where they buy.
             </div>
           </Reveal>
         </div>

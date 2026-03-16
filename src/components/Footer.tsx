@@ -4,7 +4,7 @@ export const Footer = () => (
       Cooler Master × Nuuvem
     </div>
     <div className="text-xs text-dim">
-      © 2026 Nuuvem. Documento confidencial — uso exclusivo para apresentação de parceria.
+      © 2026 Nuuvem. Confidential document — for partnership presentation use only.
     </div>
   </footer>
 );

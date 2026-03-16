@@ -18,7 +18,7 @@ function addGradientBar(slide: PptxGenJS.Slide) {
 }
 
 function addFooter(slide: PptxGenJS.Slide) {
-  slide.addText("Cooler Master × Nuuvem · Confidencial", {
+  slide.addText("Cooler Master × Nuuvem · Confidential", {
     x: 0.5, y: 7.0, w: 9, h: 0.3,
     fontSize: 8, color: GRAY, fontFace: "Arial",
   });
@@ -39,13 +39,13 @@ export async function generatePptx() {
     { text: " × ", options: { fontSize: 44, color: LIGHT_VIOLET, italic: true, fontFace: "Arial" } },
     { text: "NUUVEM", options: { fontSize: 44, color: WHITE, bold: true, fontFace: "Arial" } },
   ], { x: 0.8, y: 1.8, w: 8, h: 1.5 });
-  s1.addText("A Nuuvem convida a Cooler Master para dominar a Gamescom LATAM 2026 — hardware premium, audiência massiva e conversão real.", {
+  s1.addText("Nuuvem invites Cooler Master to dominate Gamescom LATAM 2026 — premium hardware, massive audience, and real conversions.", {
     x: 0.8, y: 3.5, w: 5.5, h: 1, fontSize: 14, color: GRAY, fontFace: "Arial", lineSpacing: 22,
   });
   s1.addText("Gamescom LATAM 2026", {
     x: 0.8, y: 1.2, w: 4, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial",
   });
-  s1.addText("30 ABR – 04 MAI 2026\nSão Paulo Expo · São Paulo, BR", {
+  s1.addText("APR 30 – MAY 04, 2026\nSão Paulo Expo · São Paulo, BR", {
     x: 6.5, y: 6.0, w: 3, h: 0.7, fontSize: 10, color: GRAY, fontFace: "Arial", align: "right",
   });
   addFooter(s1);
@@ -54,16 +54,16 @@ export async function generatePptx() {
   const s2 = pptx.addSlide();
   s2.background = { color: DARK_BG };
   addGradientBar(s2);
-  s2.addText("NÚMEROS-CHAVE", {
+  s2.addText("KEY NUMBERS", {
     x: 0.8, y: 0.8, w: 8, h: 0.6, fontSize: 28, color: WHITE, bold: true, fontFace: "Arial",
   });
   const tickerItems = [
-    { num: "200K+", label: "Visitantes esperados" },
-    { num: "100m²", label: "Stand Nuuvem" },
-    { num: "5", label: "Dias de evento" },
-    { num: "330+", label: "Creators parceiros" },
-    { num: "67M", label: "Reach anual" },
-    { num: "#1", label: "Evento LATAM" },
+    { num: "200K+", label: "Expected visitors" },
+    { num: "100m²", label: "Nuuvem Booth" },
+    { num: "5", label: "Event days" },
+    { num: "330+", label: "Partner creators" },
+    { num: "67M", label: "Annual reach" },
+    { num: "#1", label: "LATAM Event" },
   ];
   tickerItems.forEach((item, i) => {
     const col = i % 3;
@@ -76,22 +76,22 @@ export async function generatePptx() {
   });
   addFooter(s2);
 
-  // --- SLIDE 3: O MERCADO ---
+  // --- SLIDE 3: THE MARKET ---
   const s3 = pptx.addSlide();
   s3.background = { color: DARK_BG };
   addGradientBar(s3);
-  s3.addText("O MERCADO", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
-  s3.addText("O GAMING LATAM\nESTÁ EXPLODINDO.", {
+  s3.addText("THE MARKET", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
+  s3.addText("LATAM GAMING\nIS BOOMING.", {
     x: 0.8, y: 1.0, w: 4.5, h: 1.2, fontSize: 28, color: WHITE, bold: true, fontFace: "Arial", lineSpacing: 34,
   });
-  s3.addText("850 milhões de gamers em mercados emergentes. O LATAM lidera o crescimento — e o gamer latino compra 2.5× mais que a média do e-commerce.", {
+  s3.addText("850 million gamers in emerging markets. LATAM leads the growth — and Latin American gamers spend 2.5× more than the average e-commerce buyer.", {
     x: 0.8, y: 2.4, w: 4.5, h: 1, fontSize: 12, color: GRAY, fontFace: "Arial", lineSpacing: 20,
   });
   const marketStats = [
-    { num: "850M+", label: "Gamers em mercados emergentes" },
-    { num: "45M", label: "Players mensais Nuuvem" },
-    { num: "3.1M", label: "Unidades vendidas LATAM 2024" },
-    { num: "#1", label: "Ecossistema gaming da LATAM" },
+    { num: "850M+", label: "Gamers in emerging markets" },
+    { num: "45M", label: "Nuuvem monthly players" },
+    { num: "3.1M", label: "Units sold LATAM 2024" },
+    { num: "#1", label: "LATAM gaming ecosystem" },
   ];
   marketStats.forEach((s, i) => {
     const col = i % 2;
@@ -104,22 +104,21 @@ export async function generatePptx() {
   });
   addFooter(s3);
 
-  // --- SLIDE 4: O STAND ---
+  // --- SLIDE 4: THE BOOTH ---
   const s4 = pptx.addSlide();
   s4.background = { color: DARK_BG };
   addGradientBar(s4);
-  s4.addText("O STAND NUUVEM", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
+  s4.addText("THE NUUVEM BOOTH", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
   s4.addText('100m² · "BRING TOGETHER"', {
     x: 0.8, y: 1.0, w: 8, h: 0.8, fontSize: 28, color: WHITE, bold: true, fontFace: "Arial",
   });
-  s4.addText("Um ecossistema físico em dois mundos: arena de alta circulação no ground floor e lounge VIP exclusivo no mezzanine.", {
+  s4.addText("A physical ecosystem in two worlds: a high-traffic arena on the ground floor and an exclusive VIP lounge on the mezzanine.", {
     x: 0.8, y: 1.9, w: 8, h: 0.6, fontSize: 12, color: GRAY, fontFace: "Arial", lineSpacing: 20,
   });
 
-  // Zone cards
   const zones = [
-    { tag: "Ground Floor · Alta Circulação", name: "NUUVEM ARENA", desc: "8 PCs gaming powered by Cooler Master, torneios ao vivo, meet & greet com creators e experiências de hardware hands-on." },
-    { tag: "Mezzanine · Acesso Exclusivo", name: "CLOUD LOUNGE", desc: "Espaço VIP para creators, imprensa e parceiros estratégicos. Networking, content studio e showcase privado de produtos." },
+    { tag: "Ground Floor · High Traffic", name: "NUUVEM ARENA", desc: "8 gaming PCs powered by Cooler Master, live tournaments, creator meet & greets, and hands-on hardware experiences." },
+    { tag: "Mezzanine · Exclusive Access", name: "CLOUD LOUNGE", desc: "VIP space for creators, press, and strategic partners. Networking, content studio, and private product showcase." },
   ];
   zones.forEach((z, i) => {
     const x = 0.8 + i * 4.5;
@@ -131,19 +130,19 @@ export async function generatePptx() {
   });
   addFooter(s4);
 
-  // --- SLIDE 5: POR QUE COOLER MASTER ---
+  // --- SLIDE 5: WHY COOLER MASTER ---
   const s5 = pptx.addSlide();
   s5.background = { color: DARK_BG };
   addGradientBar(s5);
-  s5.addText("POR QUE COOLER MASTER", { x: 0.8, y: 0.4, w: 5, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
-  s5.addText("HARDWARE EM USO REAL.\nAUDIÊNCIA QUE COMPRA.", {
+  s5.addText("WHY COOLER MASTER", { x: 0.8, y: 0.4, w: 5, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
+  s5.addText("REAL HARDWARE IN ACTION.\nAN AUDIENCE THAT BUYS.", {
     x: 0.8, y: 1.0, w: 8, h: 1.0, fontSize: 26, color: WHITE, bold: true, fontFace: "Arial", lineSpacing: 32,
   });
   const whyItems = [
-    { num: "01", title: "Hardware em uso real", desc: 'Branding em cada PC, monitor e ilha de jogo. "Powered by Cooler Master" visto e sentido por 200K+ gamers.' },
-    { num: "02", title: "Audiência ultra-qualificada", desc: "O visitante da Gamescom LATAM tem 2.5× maior intenção de compra de hardware premium." },
-    { num: "03", title: "Acesso direto a influencers", desc: "330+ criadores parceiros. O Cloud Lounge é onde os maiores nomes do gaming criam conteúdo." },
-    { num: "04", title: "ALCANCE DIGITAL MASSIVO - NUUVEM", desc: "67M de reach anual, 35M em redes sociais, parceira e cobertura de 100+ veículos tier-1." },
+    { num: "01", title: "Real hardware in action", desc: 'Branding on every PC, monitor, and gaming station. "Powered by Cooler Master" seen and felt by 200K+ gamers.' },
+    { num: "02", title: "Ultra-qualified audience", desc: "Gamescom LATAM attendees have 2.5× higher purchase intent for premium hardware." },
+    { num: "03", title: "Direct access to influencers", desc: "330+ partner creators. The Cloud Lounge is where the biggest names in gaming create content." },
+    { num: "04", title: "MASSIVE DIGITAL REACH - NUUVEM", desc: "67M annual reach, 35M across social media, partnered with and covered by 100+ tier-1 outlets." },
   ];
   whyItems.forEach((item, i) => {
     const y = 2.3 + i * 1.15;
@@ -154,27 +153,28 @@ export async function generatePptx() {
   });
   addFooter(s5);
 
-  // --- SLIDE 6: COTAS DE PATROCÍNIO ---
+  // --- SLIDE 6: SPONSORSHIP TIERS ---
   const s6 = pptx.addSlide();
   s6.background = { color: DARK_BG };
   addGradientBar(s6);
-  s6.addText("COTAS DE PATROCÍNIO", { x: 0.8, y: 0.4, w: 5, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
-  s6.addText("ESCOLHA SEU NÍVEL\nDE DOMÍNIO.", {
+  s6.addText("SPONSORSHIP TIERS", { x: 0.8, y: 0.4, w: 5, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
+  s6.addText("CHOOSE YOUR LEVEL\nOF DOMINANCE.", {
     x: 0.8, y: 0.9, w: 8, h: 0.9, fontSize: 26, color: WHITE, bold: true, fontFace: "Arial", lineSpacing: 32,
   });
 
   const tiers = [
     {
-      badge: "Epic Sponsor", name: "EPIC", sub: "COTA EXCLUSIVA · 1 MARCA - $75.000,00", color: GOLD,
-      items: ["Naming rights: 'Nuuvem Lounge powered by Cooler Master'", "Logo em TODOS os 8 PCs, monitores, periféricos e backdrop", "Exclusividade de categoria hardware", "Produto showcase dedicado no Cloud Lounge VIP", "8 convites VIP + 10 visitante", "Campanha digital co-branded", "Relatório completo pós-evento"],
+      badge: "Epic Sponsor", name: "EPIC", sub: "EXCLUSIVE TIER · 1 BRAND - $75,000.00", color: GOLD,
+      items: ["Naming rights: 'Nuuvem Lounge powered by Cooler Master'", "Logo on ALL 8 PCs, monitors, peripherals, and backdrop", "Hardware category exclusivity", "Dedicated product showcase in Cloud Lounge VIP", "8 VIP passes + 10 visitor passes", "Co-branded digital campaign", "Full post-event report"],
     },
     {
-      badge: "Partner", name: "PARTNER", sub: "ATÉ 2 MARCAS - $45.000,00", color: BLUE,
-      items: ["Branding em 6 PCs gaming + periféricos selecionados", "Logo no backdrop principal e materiais do stand", "Acesso ao Cloud Lounge", "1 sessão com creators parceiros", "Menções em campanhas digitais", "Relatório pós-evento"],
+      badge: "Partner", name: "PARTNER", sub: "UP TO 2 BRANDS - $45,000.00", color: BLUE,
+      items: ["Branding on 6 gaming PCs + selected peripherals",
+ "Logo on main backdrop and booth materials", "Cloud Lounge access", "1 session with partner creators", "Mentions in digital campaigns", "Post-event report"],
     },
     {
-      badge: "Standard", name: "STANDARD", sub: "ATÉ 4 MARCAS - $15.000,00", color: GRAY,
-      items: ["Logo em materiais do stand e backdrop secundário", "Produto showcase em área designada", "Menção em campanhas digitais selecionadas", "3 convite VIP para o evento", "Relatório resumido pós-evento"],
+      badge: "Standard", name: "STANDARD", sub: "UP TO 4 BRANDS - $15,000.00", color: GRAY,
+      items: ["Logo on booth materials and secondary backdrop", "Product showcase in designated area", "Mention in selected digital campaigns", "3 VIP passes for the event", "Summary post-event report"],
     },
   ];
 
@@ -200,14 +200,14 @@ export async function generatePptx() {
   s7.background = { color: DARK_BG };
   addGradientBar(s7);
   s7.addText("TRACK RECORD", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
-  s7.addText("A NUUVEM JÁ PROVOU\nQUE SABE FAZER.", {
+  s7.addText("NUUVEM HAS PROVEN\nIT DELIVERS.", {
     x: 0.8, y: 1.0, w: 8, h: 1.0, fontSize: 28, color: WHITE, bold: true, fontFace: "Arial", lineSpacing: 34,
   });
   const proofStats = [
-    { num: "200K+", label: "Visitantes presenciais no último evento" },
-    { num: "67M", label: "Impressões digitais anuais" },
-    { num: "330+", label: "Creators parceiros ativos" },
-    { num: "100%", label: "Taxa de satisfação de patrocinadores" },
+    { num: "200K+", label: "In-person visitors at last event" },
+    { num: "67M", label: "Annual digital impressions" },
+    { num: "330+", label: "Active partner creators" },
+    { num: "100%", label: "Sponsor satisfaction rate" },
   ];
   proofStats.forEach((s, i) => {
     const x = 0.8 + i * 2.3;
@@ -218,23 +218,23 @@ export async function generatePptx() {
   });
   addFooter(s7);
 
-  // --- SLIDE 8: A NUUVEM ---
+  // --- SLIDE 8: NUUVEM ---
   const s8 = pptx.addSlide();
   s8.background = { color: DARK_BG };
   addGradientBar(s8);
-  s8.addText("A NUUVEM", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
-  s8.addText("O ECOSSISTEMA GAMING\n#1 DA AMÉRICA LATINA.", {
+  s8.addText("NUUVEM", { x: 0.8, y: 0.4, w: 3, h: 0.4, fontSize: 11, color: LIGHT_BLUE, bold: true, fontFace: "Arial" });
+  s8.addText("THE #1 GAMING\nECOSYSTEM IN LATIN AMERICA.", {
     x: 0.8, y: 1.0, w: 8, h: 1.0, fontSize: 28, color: WHITE, bold: true, fontFace: "Arial", lineSpacing: 34,
   });
-  s8.addText("Mais que uma store. A Nuuvem é o hub que conecta marcas, creators e gamers em uma comunidade que joga, compra e influencia.", {
+  s8.addText("More than a store. Nuuvem is the hub connecting brands, creators, and gamers in a community that plays, buys, and influences.", {
     x: 0.8, y: 2.2, w: 7, h: 0.7, fontSize: 12, color: GRAY, fontFace: "Arial", lineSpacing: 20,
   });
   const nuuvemMetrics = [
-    { value: "45M+", label: "Gamers mensais" },
-    { value: "12M+", label: "Transações/ano" },
-    { value: "#1", label: "Store gaming LATAM" },
-    { value: "330+", label: "Creators parceiros" },
-    { value: "67M", label: "Reach anual" },
+    { value: "45M+", label: "Monthly gamers" },
+    { value: "12M+", label: "Transactions/year" },
+    { value: "#1", label: "LATAM gaming store" },
+    { value: "330+", label: "Partner creators" },
+    { value: "67M", label: "Annual reach" },
     { value: "35M", label: "Social reach" },
   ];
   nuuvemMetrics.forEach((m, i) => {
@@ -252,20 +252,20 @@ export async function generatePptx() {
   const s9 = pptx.addSlide();
   s9.background = { color: DARK_BG };
   s9.addShape("rect", { x: 0, y: 0, w: "100%", h: "100%", fill: { type: "solid", color: "0A1A3D" } });
-  s9.addText("VAMOS\nJOGAR\nJUNTOS", {
+  s9.addText("LET'S\nPLAY\nTOGETHER", {
     x: 1.5, y: 1.0, w: 7, h: 3.0, fontSize: 52, color: WHITE, bold: true, fontFace: "Arial", align: "center", lineSpacing: 58,
   });
-  s9.addText("A Cooler Master merece o palco que a Nuuvem construiu.\nFale com a equipe de parcerias e garanta sua presença na Gamescom LATAM 2026.", {
+  s9.addText("Cooler Master deserves the stage Nuuvem has built.\nTalk to our partnerships team and secure your presence at Gamescom LATAM 2026.", {
     x: 1.5, y: 4.2, w: 7, h: 0.9, fontSize: 13, color: GRAY, fontFace: "Arial", align: "center", lineSpacing: 22,
   });
   s9.addShape("rect", { x: 3.5, y: 5.5, w: 3.0, h: 0.55, fill: { type: "solid", color: BLUE } });
-  s9.addText("parcerias@nuuvem.com", {
+  s9.addText("partnerships@nuuvem.com", {
     x: 3.5, y: 5.5, w: 3.0, h: 0.55, fontSize: 13, color: WHITE, bold: true, fontFace: "Arial", align: "center", valign: "middle",
   });
   const steps = [
-    { num: "01", label: "Escolha sua cota" },
-    { num: "02", label: "Alinhe o escopo" },
-    { num: "03", label: "Domine o evento" },
+    { num: "01", label: "Choose your tier" },
+    { num: "02", label: "Align the scope" },
+    { num: "03", label: "Dominate the event" },
   ];
   steps.forEach((s, i) => {
     const x = 2.0 + i * 2.2;

@@ -1,24 +1,24 @@
 import { Reveal, Eyebrow, SectionHeading, SectionParagraph } from "./ui-landing";
 
 const metrics = [
-  { value: "45M", suffix: "+", label: "Gamers mensais" },
-  { value: "12M", suffix: "+", label: "Transações/ano" },
-  { value: "#1", suffix: "", label: "Store gaming LATAM" },
-  { value: "330", suffix: "+", label: "Creators parceiros" },
-  { value: "67M", suffix: "", label: "Reach anual" },
+  { value: "45M", suffix: "+", label: "Monthly gamers" },
+  { value: "12M", suffix: "+", label: "Transactions/year" },
+  { value: "#1", suffix: "", label: "LATAM gaming store" },
+  { value: "330", suffix: "+", label: "Partner creators" },
+  { value: "67M", suffix: "", label: "Annual reach" },
   { value: "35M", suffix: "", label: "Social reach" },
 ];
 
 export const NuuvemSection = () => (
   <section id="nuuvem" className="bg-background">
     <div className="max-w-[1200px] mx-auto px-[4vw] py-[6.5rem]">
-      <Reveal><Eyebrow>A Nuuvem</Eyebrow></Reveal>
+      <Reveal><Eyebrow>Nuuvem</Eyebrow></Reveal>
       <Reveal delay={0.05}>
-        <SectionHeading>O ECOSSISTEMA GAMING<br />#1 DA AMÉRICA LATINA.</SectionHeading>
+        <SectionHeading>THE #1 GAMING<br />ECOSYSTEM IN LATIN AMERICA.</SectionHeading>
       </Reveal>
       <Reveal delay={0.1}>
         <SectionParagraph>
-          Mais que uma store. A Nuuvem é o hub que conecta marcas, creators e gamers em uma comunidade que joga, compra e influencia.
+          More than a store. Nuuvem is the hub connecting brands, creators, and gamers in a community that plays, buys, and influences.
         </SectionParagraph>
       </Reveal>
 

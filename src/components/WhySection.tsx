@@ -2,10 +2,10 @@ import { Reveal, Eyebrow, SectionHeading, SectionParagraph } from "./ui-landing"
 import proofImg from "@/assets/proof-3.jpg";
 
 const items = [
-  { num: "01", title: "Hardware em uso real", desc: 'Branding em cada PC, monitor e ilha de jogo. "Powered by Cooler Master" visto e sentido por 200K+ gamers que jogam e compram.' },
-  { num: "02", title: "Audiência ultra-qualificada", desc: "O visitante da Gamescom LATAM tem 2.5× maior intenção de compra de hardware premium que a média do e-commerce." },
-  { num: "03", title: "Acesso direto a influencers", desc: "330+ criadores parceiros. O Cloud Lounge é onde os maiores nomes do gaming brasileiro criam conteúdo organicamente." },
-  { num: "04", title: "ALCANCE DIGITAL MASSIVO - NUUVEM", desc: "67M de reach anual, 35M em redes sociais, parceira e cobertura de 100+ veículos tier-1." },
+  { num: "01", title: "Real hardware in action", desc: 'Branding on every PC, monitor, and gaming station. "Powered by Cooler Master" seen and felt by 200K+ gamers who play and buy.' },
+  { num: "02", title: "Ultra-qualified audience", desc: "Gamescom LATAM attendees have 2.5× higher purchase intent for premium hardware than the average e-commerce buyer." },
+  { num: "03", title: "Direct access to influencers", desc: "330+ partner creators. The Cloud Lounge is where the biggest names in gaming create content organically." },
+  { num: "04", title: "MASSIVE DIGITAL REACH - NUUVEM", desc: "67M annual reach, 35M across social media, partnered with and covered by 100+ tier-1 outlets." },
 ];
 
 export const WhySection = () => (
@@ -13,13 +13,13 @@ export const WhySection = () => (
     <div className="max-w-[1200px] mx-auto px-[4vw] py-[6.5rem]">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[4.5rem] items-start">
         <div>
-          <Reveal><Eyebrow>Por que Cooler Master</Eyebrow></Reveal>
+          <Reveal><Eyebrow>Why Cooler Master</Eyebrow></Reveal>
           <Reveal delay={0.05}>
-            <SectionHeading>HARDWARE EM USO REAL.<br />AUDIÊNCIA QUE COMPRA.</SectionHeading>
+            <SectionHeading>REAL HARDWARE IN ACTION.<br />AN AUDIENCE THAT BUYS.</SectionHeading>
           </Reveal>
           <Reveal delay={0.1}>
             <SectionParagraph>
-              Não é banner em site. É a sua marca nas mãos de quem ama performance — durante 4 dias intensos no maior evento gaming da América Latina.
+              This isn't a banner on a website. It's your brand in the hands of performance enthusiasts — for 4 intense days at Latin America's largest gaming event.
             </SectionParagraph>
           </Reveal>
           <div className="flex flex-col gap-4 mt-9">

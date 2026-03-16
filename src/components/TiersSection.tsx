@@ -7,16 +7,16 @@ const tiers = [
     borderClass: "border-[#FFD100]/40",
     barGradient: "bg-gradient-to-r from-[#FFD100] to-[#FF8C00]",
     name: "EPIC",
-    sub: "COTA EXCLUSIVA · 1 MARCA - $75.000,00",
-    highlight: "Domínio total do stand e do naming — a Cooler Master é o hardware oficial da × Nuuvem.",
+    sub: "EXCLUSIVE TIER · 1 BRAND - $75,000.00",
+    highlight: "Total booth and naming dominance — Cooler Master is the official hardware of × Nuuvem.",
     items: [
       "Naming rights: 'Nuuvem Lounge powered by Cooler Master'",
-      "Logo em TODOS os 8 PCs, monitores, periféricos e backdrop",
-      "Exclusividade de categoria hardware durante o evento",
-      "Produto showcase dedicado no Cloud Lounge VIP",
-      "8 convites VIP + 10 visitante",
-      "Campanha digital co-branded ",
-      "Relatório completo pós-evento",
+      "Logo on ALL 8 PCs, monitors, peripherals, and backdrop",
+      "Hardware category exclusivity during the event",
+      "Dedicated product showcase in Cloud Lounge VIP",
+      "8 VIP passes + 10 visitor passes",
+      "Co-branded digital campaign",
+      "Full post-event report",
     ],
   },
   {
@@ -25,15 +25,15 @@ const tiers = [
     borderClass: "border-primary/50",
     barGradient: "bg-gradient-to-r from-primary to-v2",
     name: "PARTNER",
-    sub: "ATÉ 2 MARCAS - $45.000,00",
-    highlight: "Presença premium com branding em PCs e acesso ao ecossistema de creators.",
+    sub: "UP TO 2 BRANDS - $45,000.00",
+    highlight: "Premium presence with PC branding and access to the creator ecosystem.",
     items: [
-      "Branding em 6 PCs gaming + periféricos selecionados",
-      "Logo no backdrop principal e materiais do stand",
-      "Acesso ao Cloud Lounge ",
-      "1 sessão com creators parceiros",
-      "Menções em campanhas digitais",
-      "Relatório pós-evento",
+      "Branding on 6 gaming PCs + selected peripherals",
+      "Logo on main backdrop and booth materials",
+      "Cloud Lounge access",
+      "1 session with partner creators",
+      "Mentions in digital campaigns",
+      "Post-event report",
     ],
   },
   {
@@ -42,14 +42,14 @@ const tiers = [
     borderClass: "",
     barGradient: "bg-gradient-to-r from-v2 to-nb2",
     name: "STANDARD",
-    sub: "ATÉ 4 MARCAS - $15.000,00",
-    highlight: "Visibilidade no stand com produto showcase e presença digital.",
+    sub: "UP TO 4 BRANDS - $15,000.00",
+    highlight: "Booth visibility with product showcase and digital presence.",
     items: [
-      "Logo em materiais do stand e backdrop secundário",
-      "Produto showcase em área designada",
-      "Menção em campanhas digitais selecionadas",
-      "3 convite VIP para o evento",
-      "Relatório resumido pós-evento",
+      "Logo on booth materials and secondary backdrop",
+      "Product showcase in designated area",
+      "Mention in selected digital campaigns",
+      "3 VIP passes for the event",
+      "Summary post-event report",
     ],
   },
 ];
@@ -57,9 +57,9 @@ const tiers = [
 export const TiersSection = () => (
   <section id="tiers" className="bg-background">
     <div className="max-w-[1200px] mx-auto px-[4vw] py-[6.5rem]">
-      <Reveal><Eyebrow>Cotas de Patrocínio</Eyebrow></Reveal>
+      <Reveal><Eyebrow>Sponsorship Tiers</Eyebrow></Reveal>
       <Reveal delay={0.05}>
-        <SectionHeading>ESCOLHA SEU NÍVEL<br />DE DOMÍNIO.</SectionHeading>
+        <SectionHeading>CHOOSE YOUR LEVEL<br />OF DOMINANCE.</SectionHeading>
       </Reveal>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
