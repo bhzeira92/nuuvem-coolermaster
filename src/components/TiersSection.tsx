@@ -7,7 +7,7 @@ const tiers = [
     borderClass: "border-[#FFD100]/40",
     barGradient: "bg-gradient-to-r from-[#FFD100] to-[#FF8C00]",
     name: "EPIC",
-    sub: "Cota Exclusiva · 1 marca",
+    sub: "COTA EXCLUSIVA · 1 MARCA - $75.000,00",
     highlight: "Domínio total do stand e do naming — a Cooler Master é o hardware oficial da × Nuuvem.",
     items: [
       "Naming rights: 'Nuuvem Lounge powered by Cooler Master'",
