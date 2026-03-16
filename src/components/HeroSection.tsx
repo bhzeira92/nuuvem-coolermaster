@@ -33,22 +33,22 @@ export const HeroSection = () => {
           NUUVEM
         </h1>
         <p className="text-[1.05rem] leading-relaxed text-muted-foreground max-w-[440px] my-6">
-          A Nuuvem convida a Cooler Master para dominar a Gamescom LATAM 2026 — hardware premium, audiência massiva e conversão real.
+
         </p>
-        <div className="flex gap-3 flex-wrap">
-          <a
-            href="#tiers"
-            className="font-display font-bold text-sm tracking-[0.1em] uppercase py-3.5 px-8 bg-primary text-primary-foreground no-underline relative overflow-hidden hover:bg-nb2 hover:-translate-y-0.5 hover:shadow-[0_10px_36px_hsl(var(--glow-blue)/0.55)] transition-all">
-            
-            Ver cotas
-          </a>
-          <a
-            href="#stand"
-            className="font-display font-bold text-sm tracking-[0.1em] uppercase py-3.5 px-8 bg-transparent text-muted-foreground no-underline border border-border-bright hover:border-v3 hover:text-primary-foreground transition-all">
-            
-            Explorar o stand
-          </a>
-        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
       </div>
 
       {/* Meta */}
